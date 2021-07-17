@@ -60,8 +60,7 @@ for i in range(0, detections.shape[2]):
 		face = img_to_array(face)
 		face = preprocess_input(face)
 		face = np.expand_dims(face, axis=0)
-		# pass the face through the model to determine if the face
-		# has a mask or not
+		# pass the face through the model to determine if the face has a mask or not
 		(mask, withoutMask) = model.predict(face)[0]
 		# determine the class label and color we'll use to draw
 		# the bounding box and text
