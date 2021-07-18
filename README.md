@@ -7,3 +7,6 @@ will make it beneficial to flatten the curve of transmission.
 Artificial intelligence could play an important part in the post-COVID recovery, 
 helping to boost productivity and foster a new generation of innovative companies. 
 While this situation happens to worsen day by day, it is very much essential for everyone to follow some rules in order to remain safe than to get badly affected with its consequences.
+   Here, I have tried to design a custom deep learning model of Face Mask Detector using OpenCV,
+Keras/Tensorflow libraries which detects if an individual is wearing a face mask or not and alerting for the same.
+   
