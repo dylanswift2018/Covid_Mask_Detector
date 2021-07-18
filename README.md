@@ -17,4 +17,11 @@ and second stage dealing with applying Face Mask Detector model on to the test i
    In second stage, firstly we load the face mask classifier from disk. The we use it to detect faces in image or video stream and extract the region of interest for each face.
 We then apply face mask classifier to each region of interest part of the face to determine whether person has wore mask or not and at last display the results.
 We also find the accuracy earned in determining the correct result.
+
+## Techs Used
+### Dataset 
+Real World Masked Face Dataset (RMFD) AI/DL 
+
+### Techniques/Libaries 
+OpenCV, Keras/TensorFlow, MobileNetV2
    
