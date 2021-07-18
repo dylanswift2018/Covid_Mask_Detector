@@ -24,4 +24,17 @@ Real World Masked Face Dataset (RMFD) AI/DL
 
 ### Techniques/Libaries 
 OpenCV, Keras/TensorFlow, MobileNetV2
+
+Firstly, we import all the necessary libraries required for implementation some of which are :
+
+#### tensorflow.keras 
+for Data augmentation, Loading the MobilNetV2 classifier, Building a new fully-connected (FC) head, Pre-processing, Loading image data, sklearn, imutils, matplotlib, numpy etc.
+#### sklearn 
+for binarizing class labels, segmenting our dataset, and printing a classification report.
+#### imutils 
+paths implementation to find and list images in our dataset.
+#### matplotlib
+to plot our training curves.
+
+Then, we construct the argument parser and parse command line arguments required while running our code. We then specify hyperparameter constants including initial learning rate, number of training epochs, and batch size.
    
